@@ -1,0 +1,54 @@
+
+  
+  h4 {
+    color: #63003E;
+  }
+  .morning-container {
+    border: 1px solid black;
+    background-color: lightgreen;
+    border-radius: 20px;
+    height: 300px;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 150px;
+    box-shadow: rgba(135, 175, 235, 0.556);
+    
+  } 
+  .afternoon-container {
+    border: 1px solid black;
+    background-color: lightgreen;
+    border-radius: 20px;
+    height: 300px;
+    width: 50%;
+    margin-top: 60px;
+    margin-left: 150px;
+    box-shadow: rgba(135, 175, 235, 0.556);
+    
+    
+}
+  
+  
+  .time-slot:hover {
+    background-color: #630000;
+    color: #fff;
+  }
+  /* .time-slot {
+    display: inline-block;
+    position: relative;
+    width: 70px;
+    height: 60px;
+    padding: 8px 12px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(170, 240, 99);
+    cursor: pointer;
+  } */
+  
+  .time-slot:hover {
+    background-color: rgb(151, 88, 229);
+  }
+  strong{
+    color: blue;
+  }

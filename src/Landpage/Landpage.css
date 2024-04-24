@@ -1,0 +1,55 @@
+
+
+.landimage{
+    
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+}
+
+.landpage-container{
+    background-color: grey;
+    width: 100%;
+}
+
+h3 {
+  color:green;
+  border: 2px solid black;  
+  border-radius: 50px;
+  margin-bottom: 25px;
+  background-color:cadetblue;
+ 
+}
+
+
+.landli {
+  margin-bottom: 15px;
+  padding: 8px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} 
+
+.landli:hover {
+  background-color: #ddd;
+}
+
+.action-button {
+  padding: 10px;  
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.action-button:hover {
+  background-color: #e7edee;
+}
+
+
+a:hover
+{
+  background-color: cornflowerblue;
+}

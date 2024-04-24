@@ -1,0 +1,15 @@
+.technicianSidebar{
+    background-color: coral;
+    height: 1000px;
+    text-align: center;
+    padding: 30px;
+}
+
+.technicianimg{
+    height: 180px;
+    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+
+}

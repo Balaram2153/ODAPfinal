@@ -1,0 +1,35 @@
+.contactus-card i{
+    margin-right: 20px;
+    margin-left: 60px;
+    height: 20px;
+    width: 20px;
+}
+
+.contactus-card{
+    text-align: center;
+    align-content: center;
+    background-color: yellow transparent;
+    opacity: 1;
+    width: 400px;
+    height: 500px;
+    margin-left: 500px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.contactus-card h1{
+    margin-bottom: 40px;
+}
+
+.contactus-bg{
+    background-image: url("C:\Users\Admin\Downloads\online_doctor_appointment_portal (7)\online_doctor_appointment_portal\public\contactus-bgg.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.hover:hover{
+    background-color: transparent;
+    text-decoration: none;
+}

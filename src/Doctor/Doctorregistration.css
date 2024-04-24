@@ -1,0 +1,68 @@
+
+input:hover{
+    background-color: rgb(221, 230, 247);
+}
+td{
+    padding: 10px;
+    color: white;
+}
+
+.Doctable1 tr{
+    padding: 10px;
+    
+}
+td{
+    color: #4169e1;
+    font-weight: bold;
+    margin-left: 0px;
+}
+.Doctable1  input{
+    color: black;
+}
+.Doctable2 input{
+    color: black;
+}
+.DRimage{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+.DRcard{
+    padding: 20px;
+    padding-top: 70px;
+}
+.DRcard p{
+    color: rgb(236, 138, 69);
+    font-weight: bold;
+    font-size: large;
+}
+.DRcontainer{
+    margin-left: 120px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 120px;
+    border-radius: 6px;
+    background-color: transparent;
+    height: 850px;
+    padding: 24px;
+}
+.DRbtn{
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+h4{
+    margin-left: 600px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.DRbg{
+    background-image: url("/public/DRbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}

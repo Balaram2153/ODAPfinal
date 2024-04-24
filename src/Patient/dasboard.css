@@ -1,0 +1,37 @@
+#navigation {
+    background-color: lightgreen;
+    padding: 20px;
+    width: 200px;
+}
+
+.logo-img {
+    height: 100px; /* Adjust as needed */
+    width: auto; /* Adjust as needed */
+}
+
+.navi {
+    margin-top: 20px;
+    width:180px;
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.dropdown-menu {
+    background-color: lightgreen;
+}
+
+.dropdown-item {
+    color: black;
+}
+
+.dropdown-item:hover {
+    background-color: #007bff;
+    color: white;
+}

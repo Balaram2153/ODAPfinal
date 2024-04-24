@@ -1,0 +1,143 @@
+
+.form-container {
+  background-color: #85acfa;
+  width: 60%;
+  height: auto;
+  position: static;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 80px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+.opconslut{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width:50%; /* Set the input width to 100% */
+  padding: 10px; /* Adjust the padding for better spacing */
+  border-radius: 10px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  margin-top: 5px; /* Add a top margin for spacing between elements */
+}
+.responsive{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 250px;
+  width: 450px;
+  flex: 40%;
+}
+
+/* 
+h3 {
+  text-align: center;
+  margin-left: -350px;
+  margin-bottom: 20px;
+} */
+
+.form-group {
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.booking-date-container,
+.booking-time-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.booking-time-container select {
+  margin-right: 10px;
+}
+
+.time-slot {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 80px;
+  padding: 8px 12px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(170, 240, 99);
+  cursor: pointer;
+}
+
+.slot-dates-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slot-date {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.slot-date.selected {
+  background-color: lightblue;
+}
+
+.slot-slots-container {
+  margin-top: 20px;
+}
+
+.time-slot:hover {
+  background-color: rgb(229, 88, 88);
+}
+
+.unavailable {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+button {
+  background-color: #4caf50; /* Green color */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 600px) {
+  .form-container {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .booking-date-container,
+  .booking-time-container {
+    flex-direction: column;
+  }
+
+  .time-slot {
+    display: block;
+    margin: 5px 0;
+  }
+}
+
+
+
+.option-input.radio:checked {
+  background: #d9486d;
+}
+
+.time-slot.selected {
+  background-color: red;
+}

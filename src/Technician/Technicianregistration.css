@@ -1,0 +1,67 @@
+
+input{
+    width: 450px;
+    background-color: orange;
+    color: black;
+  }
+  .trtablecontainer{
+    align-items: center;
+    margin-left: 200px;
+  }
+  
+  .techregisterheading{
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .techheadcontainer{
+    margin-left: 170px; 
+  }
+  
+  .techformcontainer{
+    padding: 12px;
+  }
+  
+  @media (min-width: 992px) {
+    .techheadcontainer {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+    }
+    .techheadcontainer img {
+      height: 150px;
+      width: 200px;
+      border-radius: 8px;
+    }
+    .techregisterheading {
+      margin-left: 20px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .techheadcontainer {
+      padding: 10px;
+    }
+    .techheadcontainer img {
+      height: 100px;
+      width: 150px;
+      border-radius: 8px;
+    }
+    .techregisterheading h2 {
+      font-size: 1.5rem;
+    }
+    .techregisterheading p {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .trbtn {
+      width: 100%;
+    }
+  }
+  

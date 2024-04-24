@@ -1,0 +1,33 @@
+.technicianlandimg1{
+    height: 400px;
+    width: 400px;
+    border-radius: 12px;
+}
+.technician-card1-content{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.technician-card1-content button{
+    border-radius: 6px;
+    height: 40px;
+    width: 100px;
+    background-color: orange;
+}
+.technician-card1{
+    background-image: linear-gradient(to right, silver , royalblue);
+    margin-top: 8px;
+}
+.technician-card2{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    padding: 12px;
+    background-color: rgb(239, 239, 239);
+}
+.technician-card2-cont{
+    padding: 4px;
+    margin: 4px;
+    border-radius: 4px;
+    background-color: aliceblue;
+}

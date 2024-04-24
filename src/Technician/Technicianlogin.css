@@ -1,0 +1,60 @@
+/* body {
+     background-image: url('https://media.istockphoto.com/id/1225056688/photo/man-holding-beautiful-street-mix-dog-in-arms-helps-dog.jpg?s=1024x1024&w=is&k=20&c=7jbuZPkoE2m0JtVIm-bRI7L4w6vSqCTLjixF3s4GQ0s=');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  
+  .Logincontainer {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color:rgb(226, 125, 24)
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .forgot-password {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .forgot-password a {
+    color: #555;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  /* table, th, td {
+    border: 1px solid black;
+  } */

@@ -1,0 +1,37 @@
+.technicianreports{
+  background-color: white;
+  padding: 100px;
+  text-align: center;
+  height: 1000px;
+  
+  
+}
+/* .TRcontainer{
+  background-image: url('C:\Users\Admin\Desktop\ODAP1\ODAP\public\TRbg.jpg');
+  background-size: cover;
+} */
+
+.technicianreports input{
+  width: 300px;
+  margin-left: 10px;
+}
+
+.sendreportsh1{
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 100px;
+  text-decoration: underline;
+  background-color: rgb(141, 181, 241);
+  border-radius: 20px;
+
+}
+
+.reportform{
+  background-color: rgba(199, 199, 223, 0.447);
+  border-radius: 15px;
+  width: 600px;
+  height: 300px;
+  padding: 30px;
+  margin-left: 250px;
+ 
+}

@@ -1,0 +1,17 @@
+.header {
+    position: relative;
+    overflow: auto;
+    height: calc(100vh - 100px); 
+  }
+  
+  .table-responsive {
+    margin-top: 20px;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; 
+    height: 100px;
+  } 

@@ -1,0 +1,148 @@
+
+
+
+.Ambulance-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+}
+
+.booking-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-left: 120px;
+  background-color: white; 
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.column-left,
+.column-right {
+  flex: 1;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #c51e1e; 
+}
+
+label[for="fromLocation"],
+label[for="ToLocation"] {
+  font-weight: bolder;
+  color: #ff5e00;
+}
+
+label[for^="residentAddress"],
+label[for="hospitalName"] {
+  color: rgb(255, 0, 0);
+  font-family: cursive;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #e20d0d; 
+}
+
+label[for="fromLocation"],
+label[for="ToLocation"] {
+  font-weight: bolder;
+  color: #ff5e00;
+}
+
+
+label[for^="residentAddress"],
+label[for="hospitalName"] {
+  color: rgb(244, 76, 9);
+  font-family: cursive;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.success-message,
+.error-message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.success-message {
+  background-color: #4caf50;
+  color: white;
+}
+
+.error-message {
+  background-color: #f44336;
+  color: white;
+}
+
+.marquee-1 {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-2 {
+  animation: marqueeAnimation 10s linear infinite;
+  color: rgb(255, 72, 0);
+  font-weight: bolder;
+}
+
+@keyframes marqueeAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.additional-fields {
+  display: none;
+  margin-top: 15px;
+}
+
+.additional-fields label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.additional-fields input,
+.additional-fields select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.additional-fields label:hover {
+  color: #9900ff; 
+}
+label:hover {
+  color: #9900ff; 
+}
